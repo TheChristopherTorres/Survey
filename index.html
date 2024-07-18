@@ -15,7 +15,16 @@
             <p id="description">This is a survey description</p>
         </section>
         <section>
-            <form action="" id="survey-form"></form>
+            <form action="" id="survey-form">
+                <fieldset>
+                    <label id="name-label">Name <input id="name" type=text required placeholder="Enter your name"></label>
+                    <label id="email-label">Email <input id="email" type=email required placeholder="Enter your email">
+                    <label id="number-label">Age <input id="number" type=number required min=1 max=120 placeholder="Enter your age"></label>
+                </fieldset>
+                <fieldset>
+                    <label></label>
+                </fieldset>
+            </form>
         </section>
     </body>
 </html>
